@@ -1,0 +1,208 @@
+.child-comp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    width: 70%;
+    transition: background-color 0.3s ease;
+}
+     form{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+      form div{
+        margin-right: 2rem;
+      }
+button#addAnother {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+    width: 10rem;
+    transition: background-color 0.3s ease;
+}
+
+button#addAnother:hover {
+    background-color: #0056b3;
+}
+
+
+.child-comp:hover {
+    background-color: #f1f1f1;
+}
+
+.imagePreview {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.imagePreview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.imageType {
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+button.remove {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+button.remove:hover {
+    background-color: #c82333;
+}
+
+
+
+/* form{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+      form div{
+        margin-right: 2rem;
+      }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button#addAnother {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button#addAnother:hover {
+    background-color: #0056b3;
+}
+
+.child-comp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    transition: background-color 0.3s ease;
+}
+
+.child-comp:hover {
+    background-color: #f1f1f1;
+}
+
+.imageUpload {
+    flex-grow: 1;
+}
+
+.imagePreview {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.imagePreview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.imageType {
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+button.remove {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+button.remove:hover {
+    background-color: #c82333;
+}
+ */
